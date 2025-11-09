@@ -1,3 +1,5 @@
+[Introduction to time series](https://eprints.ukh.ac.id/id/eprint/232/1/2016_Book_IntroductionToTimeSeriesAndFor.pdf)</b>
+
 # ML_Time_Series
 
 # Time series analysis
