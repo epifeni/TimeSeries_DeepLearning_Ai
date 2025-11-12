@@ -4,7 +4,7 @@
 # Time Series Definitions
 Stochastic Process - Random variable indexed by time
 
-# Time series analysis
+## Time series analysis
 
 1. Define the problem: Is it a classification or regression problem? What are the inputs and outputs? What are the steps involved in solving the problem?
 2. Data Exploration: This step involves visualizing the data to understand the trends and patterns. This helps in developing the intuition for building the machine learning model.
@@ -14,7 +14,23 @@ Stochastic Process - Random variable indexed by time
 6. Evaluate the models: This step includes comparing the performance of different models and choosing the best one. It involves assessing the performance of the machine learning model on unseen data. This helps in fine-tuning the model and making it ready for deployment.
 7. Make predictions: This step involves using the final model to make predictions on new data.
 
-# Common formating operations  
+## Time Series Basics
+**Trend** - What the values are doing at a specific time - Increasing, Decreasing, Stationary<br/>
+<img width="774" height="322" alt="image" src="https://github.com/user-attachments/assets/ad1728a0-f262-4b50-92e3-bd7d271ffa5b" /><br/>
+**Seasonality** - Repeating trend of ups and downns (yearly cycles or yearly periods)<br/>
+**Cyclical** - Trends with no set repetition<br/>
+
+## Python Statsmodels
+* [statsmodels documentation](https://www.statsmodels.org/stable/index.html)<br/>
+* [Time Series](https://www.statsmodels.org/stable/user-guide.html#time-series-analysis)<br/>
+* [Time Series Analysis](https://www.statsmodels.org/stable/tsa.html)<br/>
+
+
+
+
+
+
+## Common formating operations  
 
 Complete list of formatting options that you can use both for parsing strings and printing datetime objects here: https://strftime.org/  
 
