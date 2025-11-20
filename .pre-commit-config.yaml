@@ -1,0 +1,8 @@
+repos:
+- repo: local
+  hooks:
+  - id: strip-ipynb-widgets
+    name: Strip metadata.widgets from ipynb
+    entry: scripts/fix-notebook-widgets.sh
+    language: script
+    files: \.ipynb$
